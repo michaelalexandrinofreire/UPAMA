@@ -23,22 +23,12 @@
 .titulo {
  height: 97.48147583007812px;
  width: 379px;
- margin-left: 80px;
+ margin-left: 65px;
  margin-bottom: 26.69px;
  font-size: 35px;
  font-weight: 700;
  line-height: 42px;
  text-align: left;
-}
-
-.button {
- margin-top: 8px;
- padding: 8px 16px;
- background-color: #42b983;
- border: none;
- color: white;
- font-size: 16px;
- cursor: pointer;
 }
 
 .navigation {
@@ -78,13 +68,13 @@
  left: 50%;
  transform: translateX(-50%);
  display: flex;
- gap: 8px;
+ gap: 22px;
  align-items: center;
 }
 
 .dot {
- width: 12px;
- height: 12px;
+ width: 15px;
+ height: 15px;
  background-color: rgba(255, 255, 255, 0.5);
  border-radius: 50%;
  cursor: pointer;
