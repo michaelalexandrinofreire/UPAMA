@@ -33,7 +33,7 @@ export default function Slide() {
       <div className={styles.overlay}>
         <h2 className={styles.titulo}>Tornece-se um aliado do meio ambiente</h2>
         <div style={{ marginBottom: '55.7px', marginLeft: '65px' }}>
-          <Button href="" text="Doe agora"/>
+          <Button href="/doacao" text="Doe agora"/>
         </div>
       </div>
       <div className={styles.navigation}>

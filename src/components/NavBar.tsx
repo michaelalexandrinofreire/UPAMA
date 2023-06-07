@@ -32,7 +32,7 @@ export default function NavBar(){
      </li>
     </ul>
     </nav>
-    <Button href='https://chat.openai.com/' text='Doe agora'/>
+    <Button href='/doacao' text='Doe agora'/>
 
   </header>
  )
