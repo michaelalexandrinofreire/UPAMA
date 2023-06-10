@@ -1,0 +1,32 @@
+.premiacoesContainer{
+    margin-left: 80px;
+    margin-top: 85.2px;
+    margin-bottom: 100px;
+}
+  .premiacoesContainer h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+  
+    margin-bottom: 35px;
+  }
+  .premiacao{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  .informationPremiacao{
+    margin-left: 24px;
+  }
+  .informationPremiacao h3{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+  
+    margin-bottom: 7px;
+  }
+  .informationPremiacao p{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+  }

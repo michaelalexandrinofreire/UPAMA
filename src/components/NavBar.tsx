@@ -1,24 +1,27 @@
 import Button from "./Button";
+import styles from '../style/navbar.module.css'
 
 export default function NavBar(){
  return(
-  <header>
-   <div className="institutoName">
-    <div className="instituicao">
+  <header className={styles.header}>
+   <div className={styles.institutoName}>
+    <div className={styles.instituicao}>
      Instituição UPAMA
     </div>
-    <div className="logoLign"></div>
-    <div className="logo">
-     <img src="/favicon.ico" alt="logo da UPAMA" />
+    <div className={styles.logoLign}></div>
+    <div className={styles.logo}>
+      <a href="/">
+        <img src="/favicon.ico" alt="logo da UPAMA" />
+      </a>
     </div>
-    <div className="upama">
+    <div className={styles.upama}>
      União Protetora dos Animais e Meio Ambiente
     </div>
    </div>
 
    <nav>
-    <ul>
-     <li>
+    <ul className={styles.ul}>
+     <li >
       <a href="">Quem somos</a>
      </li>
      <li>

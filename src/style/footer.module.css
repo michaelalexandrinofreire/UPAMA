@@ -1,0 +1,108 @@
+.footer{
+    background: #2F7931;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  
+    padding-top: 28px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+  
+    padding-bottom: 13px;
+  }
+  .footerInformation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .socialSvg{
+    display: flex;
+    gap: 13.45px;
+  }
+  .upamaFooter{
+    font-weight: 400;
+    text-align: center;
+  }
+  .linksPage{
+    display: flex;
+    flex-wrap: wrap;
+  
+    width: 300px;
+  
+    gap: 17px;
+  
+    margin-bottom: 20px;
+  }
+  .link{
+    background: #245725;
+  
+    width: 120px;
+  
+    padding: 6px 6px;
+  
+    font-size: 12px;
+    text-align: center;
+  
+    border-radius: 3px;
+  }
+  .link:hover{
+    transition: all .5s;
+    background-color: #2EB431;
+  }
+
+.social{
+    align-items: center;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 260px;
+  }
+  
+  .social div{
+    display: flex;
+    background-color: #245725;
+    border-radius: 5px;
+    width: 120px;
+    transition: .6s;
+  }
+  .social div a{
+    width: 100%;
+    padding: 6px 6px;
+    border-radius: 3px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .social div a svg{
+    width: 16px;
+    height: 14px;
+  }
+  .social div:nth-child(1):hover, .whatsapp a:hover{
+    background-color: #27c737;
+    border-radius: 5px;
+    transition: all .8s;
+  }
+  .social div:nth-child(2):hover, .instagram a:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    border-radius: 5px;
+    transition: all .8s;
+  }
+  .social div:nth-child(3):hover, .facebook a:hover{
+    background-color: #3B5998;
+    border-radius: 5px;
+    transition: all .8s;
+  }
+  .social div:nth-child(4):hover, .youtube a:hover{
+    background-color: #ff0000;
+    border-radius: 5px;
+    transition: all .8s;
+  }

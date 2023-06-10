@@ -20,55 +20,6 @@ export default function PaginaDoacao() {
       <h1>Doação</h1>
     <div className="container-flex">
       <section className="doacao">
-        
-        <p>Escolha um valor</p>
-        <div className="doacao-opc">
-          <button
-            className={`opc ${valorSelecionado === "10" ? "selected" : ""}`}
-            onClick={() => handleValorClick("10,00 R$")}
-          >
-            R$ 10,00
-          </button>
-          <button
-            className={`opc ${valorSelecionado === "20" ? "selected" : ""}`}
-            onClick={() => handleValorClick("20,00 R$")}
-          >
-            R$ 20,00
-          </button>
-          <button
-            className={`opc ${valorSelecionado === "30" ? "selected" : ""}`}
-            onClick={() => handleValorClick("30,00 R$")}
-          >
-            R$ 30,00
-          </button>
-          <button
-            className={`opc ${valorSelecionado === "40" ? "selected" : ""}`}
-            onClick={() => handleValorClick("40,00 R$")}
-          >
-            R$ 40,00
-          </button>
-          <button
-            className={`opc ${valorSelecionado === "50" ? "selected" : ""}`}
-            onClick={() => handleValorClick("50,00 R$")}
-          >
-            R$ 50,00
-          </button>
-          <button
-            className={`opc seis ${valorSelecionado === "outro" ? "selected" : ""}`}
-            onClick={() => handleValorClick("outro")}
-          >
-            Outro valor
-          </button>
-          {valorSelecionado === "outro" && (
-            <input 
-            className="inputValor"
-              type="number"
-              value={outroValor}
-              onChange={handleOutroValorChange}
-              placeholder="Digite o valor"
-            />
-          )}
-        </div>
         <div className="forma-doacao">
           <h2>Escolha uma forma de doação</h2>
           <div className="button-forma">
@@ -92,7 +43,7 @@ export default function PaginaDoacao() {
                 </defs>
                 </svg>
               </button>
-              <span>Boleto bancário</span>
+              <span>Boleto Bancário</span>
             </div>
             <div className="forma pix">
               <button >
@@ -102,24 +53,46 @@ export default function PaginaDoacao() {
             </div>
           </div>
         </div>
-        <div className="cartao-credito">
-          <h2>Dados do cartão</h2>
-          <input type="text" 
-          className="input-name" 
-          placeholder="Nome do titular"/>
-          <div className="input-with-icon">
-            <span className="input-icon">
-              <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M9.18852 1.5798H0.811477C0.363145 1.5798 0 1.94295 0 2.39128V3.28682V4.40092V7.60872C0 8.05705 0.363145 8.42019 0.811477 8.42019H9.18852C9.63686 8.42019 10 8.05705 10 7.60872V4.3998V3.28569V2.39015C9.99887 1.94295 9.63573 1.5798 9.18852 1.5798ZM0.811477 2.02701H9.18852C9.38242 2.02701 9.55167 2.18392 9.55167 2.39015V3.06825H0.448332V2.39015C0.448332 2.19738 0.60637 2.02701 0.811477 2.02701ZM9.55167 4.17002H0.448332V3.50424H9.55167V4.17002ZM9.18852 7.97073H0.811477C0.617577 7.97073 0.448332 7.81382 0.448332 7.60759V4.61835H9.55167V7.59638C9.55167 7.80149 9.39363 7.97073 9.18852 7.97073ZM8.51041 5.81652C8.51041 5.93756 8.41402 6.03396 8.29297 6.03396H5.9684C5.84735 6.03396 5.75095 5.93756 5.75095 5.81652C5.75095 5.69547 5.84735 5.59907 5.9684 5.59907H8.28065C8.4017 5.58675 8.51041 5.68313 8.51041 5.81652ZM8.51041 7.00235C8.51041 7.12339 8.41402 7.21979 8.29297 7.21979H6.96144C6.84039 7.21979 6.74399 7.12339 6.74399 7.00235C6.74399 6.8813 6.84039 6.7849 6.96144 6.7849H8.29297C8.4017 6.7849 8.51041 6.8813 8.51041 7.00235Z" fill="black"/>
-              </svg>
-            </span>
-            <input type="text" className="input-field" placeholder="Número do cartão"/>
-          </div>
-          <div className="data-cvc">
-            <input type="text" className="data" placeholder="Data de validade"/>
-            <input type="text" className="cvc" placeholder="Código CVC"/>
+        <div className="opicions">
+          <p>Escolha um valor</p>
+          <div className="doacao-opc">
+            
+            <button
+              className={`opc ${valorSelecionado === "15" ? "selected" : ""}`}
+              onClick={() => handleValorClick("15,00 R$")}
+            >
+              R$ 15,00
+            </button>
+            <button
+              className={`opc ${valorSelecionado === "25" ? "selected" : ""}`}
+              onClick={() => handleValorClick("25,00 R$")}
+            >
+              R$ 25,00
+            </button>
+            <button
+              className={`opc ${valorSelecionado === "35" ? "selected" : ""}`}
+              onClick={() => handleValorClick("35,00 R$")}
+            >
+              R$ 35,00
+            </button>
+            <button
+              className={`opc ${valorSelecionado === "55" ? "selected" : ""}`}
+              onClick={() => handleValorClick("55,00 R$")}
+            >
+              R$ 55,00
+            </button>
+            <button
+              className={`opc seis ${valorSelecionado === "outro" ? "selected" : ""}`}
+              onClick={() => handleValorClick("outro")}
+            >
+              Outro valor
+            </button>
+            {valorSelecionado === "outro" && (
+              <img src="" alt="" />
+            )}
           </div>
         </div>
+
       </section>
       <div className="lign-doacao"></div>
 
@@ -145,14 +118,6 @@ export default function PaginaDoacao() {
         <div className="container-resume">
           <div className="resumes ">
             <p>Instituição </p> <span>União Protetora dos Animais e Meio Ambiente</span>
-          </div>
-          <div className="resumes">
-            <p>cartão</p>
-            <span></span>
-          </div>
-          <div className="resumes">
-            <p>subtotal</p>
-            <span>{" "} {valorSelecionado === "outro" ? `${outroValor},00 R$` : `${valorSelecionado}`}</span>
           </div>
           <div className="resumes total">
             <p>Total: </p>

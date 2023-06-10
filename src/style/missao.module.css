@@ -1,0 +1,28 @@
+
+.missao{
+    background-color: #2F7931CC;
+}
+.tituloMissao{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #FFFFFF;
+  
+    margin-left: 358px;
+    padding-top: 25px;
+    margin-bottom: 22px;
+  }
+.missao .pMissao{
+  left: calc(50% - 546px/2);
+  
+  font-style: italic;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  
+  text-align: center;
+  padding-bottom: 57px;
+  }

@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
-import styles from '../app/Slide.module.css';
+import styles from '../style/Slide.module.css';
 import Button from './Button';
 
 export default function Slide() {
@@ -31,7 +31,7 @@ export default function Slide() {
     <div className={styles.slideContainer}>
       <img src={images[currentImage]} alt="Slide" className={styles.slideImage} />
       <div className={styles.overlay}>
-        <h2 className={styles.titulo}>Tornece-se um aliado do meio ambiente</h2>
+        <h2 className={styles.titulo}>Torne-se um aliado do meio ambiente</h2>
         <div style={{ marginBottom: '55.7px', marginLeft: '65px' }}>
           <Button href="/doacao" text="Doe agora"/>
         </div>
