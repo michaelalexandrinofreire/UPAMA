@@ -1,0 +1,47 @@
+.quemSomosContainer{
+    display: flex;
+    justify-content: space-around;
+
+    margin: 58px auto;
+}
+.textQuemSomos{
+    height: 249px;
+    width: 447px;
+}
+.textQuemSomos h1{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    
+    margin-bottom: 68px;
+}
+.textQuemSomos p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: justify;
+}
+.textQuemSomos span{
+    font-weight: 600;
+    font-size: 17px;
+    line-height:16.94px;
+}
+.imgInstituicao{
+    height: 500px;
+    width: 450px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(219, 219, 219);
+}
+.imgInstituicao img{
+    height: 480px;
+    width: 430px;
+    border-radius: 10px;
+    max-width: min-content;
+    object-fit: cover;
+}

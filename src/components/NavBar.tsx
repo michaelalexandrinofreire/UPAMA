@@ -22,7 +22,7 @@ export default function NavBar(){
    <nav>
     <ul className={styles.ul}>
      <li >
-      <a href="">Quem somos</a>
+      <a href="/quemsomos">Quem somos</a>
      </li>
      <li>
       <a href="">Serviços</a>
