@@ -1,0 +1,199 @@
+.mainDoacao{
+    margin: 0 120px;
+}
+.mainDoacao h1{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+
+    margin: 53px 25px;
+}
+.formasContainer h2, .valuesContainer h2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.valuesContainer{
+    margin-bottom: 50px;
+}
+.valuesContainer h2{
+    margin: 20px 0;
+}
+.buttonContinue{
+    height: 45px;
+    width: 436px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #2EB431;
+
+    cursor: pointer;
+
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+
+    margin-top: 50px;
+}
+.formasDoacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 100px;
+}
+.containerDoacao{
+    display: flex;
+    justify-content: space-around;
+}
+.forma{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 35px 0;
+}
+.forma h3{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+
+    margin-top: 4.65px;
+
+    width: 70%;
+}
+.forma .svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 70px;
+    width: 70px;
+
+
+    border: 1px solid #2EB431;
+    border-radius: 50%;
+    background-color: white;
+
+    cursor: pointer;
+}
+
+.svg svg{
+    height: 40px;
+    width: 40px;
+}
+.values{
+    display: flex;
+    gap: 38px;
+}
+.value{
+    height: 35px;
+    width: 80px;
+
+    border-radius: 5px;
+    border: 1px solid #2EB431;
+
+    background-color: white;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.selectedButton{
+    background-color: #2EB431;
+    color: white;
+}
+.svg:focus{
+    background-color: #2EB431;
+}
+.sectionResume{
+    display: flex;
+    margin-bottom: 100px;
+}
+.sectionResume::before{
+    content: "";
+    display: block;
+    width: 2px;
+    height: 500px;
+    background-color: rgb(212, 212, 212);
+    margin-right: 34px;
+}
+.resumeContainer h2{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+
+    margin-bottom: 32px;
+}
+.resumeContainer svg{
+    margin-bottom: 30px;
+}
+.informationsResume::before, .informationsResume::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 500px;
+    background-color: rgb(212, 212, 212);
+}
+
+.informationsResume::before{
+    margin-bottom: 20px
+}
+.resume{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.resume p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+.pix{
+    margin: 30px 0;
+}
+.pix h2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.pixContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pixContainer img{
+    margin-top: 20px;
+    width: 200px;
+}
+.pixContainer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+
+    margin-bottom: 2px;
+}
+.total{
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
