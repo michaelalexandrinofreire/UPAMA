@@ -53,7 +53,7 @@ export default function Footer(){
             </a>
           </div>
           <div className={styles.youtube}>
-            <a href="https://www.youtube.com/@instituicaoupama5830">
+            <a href="https://www.youtube.com/@instituicaoupama5830" target='blank'>
             <svg width="26" height="26" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M18.4 19.9333H4.6C2.06387 19.9333 0 17.8695 0 15.3333V7.66668C0 5.1306 2.06387 3.06668 4.6 3.06668H18.4C20.9361 3.06668 23 5.1306 23 7.66668V15.3333C23 17.8695 20.9361 19.9333 18.4 19.9333ZM21.9778 7.66668C21.9778 5.6938 20.3729 4.08894 18.4 4.08894H4.6C2.62711 4.08894 1.02222 5.6938 1.02222 7.66668V15.3333C1.02222 17.3062 2.62711 18.9111 4.6 18.9111H18.4C20.3729 18.9111 21.9778 17.3062 21.9778 15.3333V7.66668ZM8.17778 7.17557L15.6681 11.4995L8.17778 15.8245V7.17557ZM9.2 14.054L13.6237 11.4995L9.2 8.946V14.054Z" fill="white"/>
             </svg>
