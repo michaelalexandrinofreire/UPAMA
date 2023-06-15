@@ -149,7 +149,7 @@
     margin-bottom: 4.65px;
     padding-left: 4.65px;
  }
- .formulario form input:focus, .formulario form textarea:focus, .formulario form select{
+ .formulario form input:focus, .formulario form textarea:focus{
     border-color: #DC9D0B;
     background-color: #f5f5f5;
     outline: none;
