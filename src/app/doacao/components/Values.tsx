@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import style from '../style/globals.module.css';
 
-
 export default function Values() {
   const [selectedButton, setSelectedButton] = useState<number | null>(null);
 
@@ -26,7 +25,7 @@ export default function Values() {
           className={`${style.value} ${
             selectedButton === 1 ? style.selectedButton : ''
           }`}
-          onClick={() => handleButtonClick(1)}
+          onClick={() =>{ handleButtonClick(1);}}
         >
           $ 25,00
         </button>
@@ -47,9 +46,12 @@ export default function Values() {
           $ 55,00
         </button>
       </div>
-      <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-        <button className={style.buttonContinue}>Continuar</button>
-      </a>
+      <div className={style.containerContinuar}>
+        <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
+          <button className={style.buttonContinue}>Continuar</button>
+        </a>
+        <span>* Sua doação será processada pelo PagBank</span>
+      </div>
     </div>
   );
 }

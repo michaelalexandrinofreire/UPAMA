@@ -1,0 +1,20 @@
+.titleServicos{
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 42px;
+  text-align: left;
+
+  margin-bottom: 53px;
+}
+.mainServicos{
+  margin: 53px 80px;
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+}
+.containerServicos{
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 60px;
+}

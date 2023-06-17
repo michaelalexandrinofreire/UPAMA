@@ -1,12 +1,9 @@
 interface ButtonProps {
- href: string;
  text: string;
 }
 
-export default function Button({ href, text }: ButtonProps) {
+export default function Button({ text }: ButtonProps) {
  return (
-    <a href={href} target="blank" className="buttonBasic">
-      <button>{text}</button>
-    </a>
+      <button className="button">{text}</button>
  );
 }

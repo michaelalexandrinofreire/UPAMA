@@ -79,7 +79,7 @@
 
     border: 1px solid #2EB431;
     border-radius: 50%;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 
     cursor: pointer;
 }
@@ -124,12 +124,13 @@
     content: "";
     display: block;
     width: 2px;
-    height: 500px;
+    height: 450px;
     background-color: rgb(212, 212, 212);
     margin-right: 34px;
 }
+
 .resumeContainer h2{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 36px;
     text-align: left;
@@ -181,7 +182,7 @@
 
 .pixContainer img{
     margin-top: 20px;
-    width: 200px;
+    width: 160px;
 }
 .pixContainer p{
     font-size: 14px;
@@ -191,9 +192,37 @@
 
     margin-bottom: 2px;
 }
+.writePix{
+    margin-top: 6px;
+    padding: 6px;
+
+    background-color: #2EB431;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    cursor: pointer;
+}
 .total{
     font-size: 25px;
     font-weight: 400;
     line-height: 30px;
     text-align: center;
+}
+.containerContinuar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.containerContinuar span{
+    margin-top: 5px;
+    font-size: 11px;
 }

@@ -66,7 +66,7 @@
 .socialContainer{
     display: flex;
     justify-content: space-between;
-    width: 420px;
+    width: 330px;
 }
 .redeSocial{
     display: flex;
@@ -84,7 +84,7 @@
     height: 55px;
     width: 55px;
 
-    border: 1px solid #2EB431;
+    border: none;
     border-radius: 50%;
     background-color: white;
 
@@ -102,32 +102,50 @@
     margin-top: 4.65px;
 }
 
-.whatsapp:hover{
+.socialContainer a:hover .whatsapp{
     background-color: #27c737;
     transition: background .8s;
     border: none;
   }
-  .instagram:hover{
+  .socialContainer a:hover .instagram{
     background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
     transition: background .8s;
     border: none;
   }
-  .facebook:hover{
+  .socialContainer a:hover .facebook{
     background-color: #3B5998;
     transition: background .8s;
     border: none;
   }
-  .youtube:hover{
+  .socialContainer a:hover .youtube{
     background-color: #ff0000;
     transition: all .8s;
     border: none;
   }
-  .youtube:hover svg, .facebook:hover svg, .instagram:hover svg, .whatsapp:hover svg{
+  .socialContainer a:hover .whatsapp svg{
     background-color: transparent;
-    transition: all .4s;
     color: white;
   }
+  .socialContainer a:hover .instagram svg{
+    background-color: transparent;
+    color: white;
+  }
+  .socialContainer a:hover .facebook svg{
+    background-color: transparent;
+    color: white;
+  }
+  .socialContainer a:hover .youtube svg{
+    background-color: transparent;
+    color: white;
+  }
+  .formulario h2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
 
+    margin-bottom: 20px;
+  }
  .formulario form{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 5px;

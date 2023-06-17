@@ -24,16 +24,9 @@ a {
   background: transparent;
 }
 
-.buttonBasic{
-  display: flex;
-  justify-content: center;
+.button{
   height: 35px;
   width: 103px;
-  left: 1099px;
-  top: 25px;
-}
-.buttonBasic button{
-  width: 100%;
   border: none;
   border-radius: 5px;
   background: #DC9D0B;
@@ -42,4 +35,7 @@ a {
   line-height: 15px;
   letter-spacing: 0em;
   cursor: pointer;
+}
+.button:hover{
+  background: #dc7b0b;
 }

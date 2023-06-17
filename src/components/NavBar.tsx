@@ -25,14 +25,17 @@ export default function NavBar(){
       <a href="/quemsomos">Quem somos</a>
      </li>
      <li>
-      <a href="">Serviços</a>
+      <a href="/servicos">Serviços</a>
      </li>
      <li>
       <a href="/contatos">Contato</a>
      </li>
     </ul>
     </nav>
-    <Button href='/doacao' text='Doe agora'/>
+    <a href="/doacao">
+      <Button text='Doe agora'/>
+    </a>
+    
 
   </header>
  )

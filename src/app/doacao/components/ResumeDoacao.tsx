@@ -1,10 +1,12 @@
 import style from '../style/globals.module.css'
+import React, { useState } from 'react';
 
 export default function ResumeDoacao(){
     
+
     return(
         <div className={style.resumeContainer}>
-            <h2>Resumo</h2>
+            <h2>Resumo da doação</h2>
             <svg width="98" height="25" viewBox="0 0 98 25" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clip-path="url(#clip0_3_200)">
             <path d="M23.9252 7.79598C21.2962 1.44561 14.0158 -1.57271 7.67479 1.0552C1.33378 3.68312 -1.67848 10.9606 0.951556 17.312C3.58159 23.6633 10.861 26.6796 17.201 24.0517C23.541 21.4238 26.5563 14.1464 23.9252 7.79598Z" fill="black"/>
@@ -25,10 +27,10 @@ export default function ResumeDoacao(){
 
             <div className={style.informationsResume}>
                 <div className={style.resume}>
-                    <p>Instituição</p> <span>União Protetora dos Animais e Meio Ambiente</span>
+                    <p>Instituição</p> <span>UPAMA</span>
                 </div>
                 <div className={style.resume}>
-                    <p>Total</p> <span className={style.total}>,00</span>
+                    <p>Total</p> <span className={style.total}></span>
                 </div>
             </div>
         </div>
