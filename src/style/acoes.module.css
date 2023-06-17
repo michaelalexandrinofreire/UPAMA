@@ -20,7 +20,7 @@
     gap: 60px;
   }
   .acao{
-    height: 373px;
+    height: 395px;
     width: 345px;
     border-radius: 10px;
   
@@ -28,8 +28,8 @@
     padding: 10px 10px;
   
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    flex-direction: column;
   }
   .acao img{
     height: 204px;
@@ -40,7 +40,6 @@
   }
   .acao p{
     font-family: 'Inter', sans-serif;
-    margin-bottom: 7px;
     font-size: 12px;
     font-weight: 300;
     line-height: 15px;
@@ -86,8 +85,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     cursor: pointer;
 
     font-family: 'Inter', sans-serif;
-  }
+}
+.button{
+  height: 35px;
+  width: 100px;
+
+  background-color: #DC9D0B;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  color: white;
+
+  cursor: pointer;
+}
+.button:hover{
+  background-color: #dc7b0b;
+}
+.otherDescription{
+  text-align: justify;
+  margin-bottom: 5px;
+}
