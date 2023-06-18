@@ -6,10 +6,10 @@ export default function Footer(){
   <footer className={styles.footer}>
     <div className={styles.footerInformation}>
       <div className={styles.linksPage}>
-        <a href="" className={styles.link}>Quem somos</a>
-        <a href="" className={styles.link}>Serviços</a>
-        <a href="" className={styles.link}>Parceiros</a>
-        <a href="" className={styles.link}>Fale conosco</a>
+        <a href="/quemsomos" className={styles.link}>Quem somos</a>
+        <a href="/servicos" className={styles.link}>Serviços</a>
+        <a href="/contatos" className={styles.link}>Contato</a>
+        <a href="doacao" className={styles.link}>Doe agora</a>
       </div>
       <div className={styles.contatosfooter}>
         <div className={styles.social}>
