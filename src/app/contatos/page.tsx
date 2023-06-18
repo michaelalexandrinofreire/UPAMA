@@ -65,11 +65,11 @@ export default function Contatos(){
                     <input type="hidden" name="accessKey" value="de260494-4f11-423c-ad35-3d67bcad3c66"/>
                     <div className={style.nameemail}>
                         <div className={style.nomelabel}>
-                            <label htmlFor="" className={style.nome}>Nome</label>
+                            <label  className={style.nome}>Nome</label>
                             <input type="text" name="name" placeholder="Seu nome ou da instituição"/>
                         </div>
                         <div className={style.emaillabel}>
-                            <label htmlFor="" className={style.email}>E-mail</label>
+                            <label className={style.email}>E-mail</label>
                             <input type="email" name="email" placeholder="Seu e-mail"/>
                         </div>
                     </div>
@@ -80,11 +80,11 @@ export default function Contatos(){
                         <option value="Projetos Socioambientais">Projetos Socioambientais</option>
                         <option value="Reflorestamento">Reflorestamento</option>
                         <option value="Cursos e Formações">Cursos e Formações</option>
-                        <input type="hidden" name="redirectTo" value="https://example.com/contact/success"/>
                     </select>
                     <label htmlFor="">Mensagem</label>
                     <textarea name="message" id=""  placeholder="Sua mensagem"></textarea>
-                    <button type="submit" className={style.buttonform}>Enviar</button>
+                    <input type="hidden" name="redirectTo" value="https://upama.vercel.app/contatos"></input>
+                    <button type="submit" value="Submit" className={style.buttonform}>Enviar</button>
                 </form>
                 </div> 
             </div>  

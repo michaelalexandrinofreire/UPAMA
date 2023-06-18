@@ -1,27 +1,37 @@
 "use client";
 import React, { useState } from 'react';
+import { ChangeEvent } from 'react';
 import style from '../style/globals.module.css';
 
-export default function Values() {
+interface valueProps {
+  valorTotal: string;
+  setValorTotal: React.Dispatch<React.SetStateAction<string>>;
+}
+
+export default function Values({ valorTotal, setValorTotal }: valueProps) {
   const [selectedButton, setSelectedButton] = useState<number | null>(null);
   const [linkHref, setLinkHref] = useState('');
   const [botaoClicado, setBotaoClicado] = useState(false);
 
-    function setLinkUm () {
+    function setBotaoUm () {
       setLinkHref('https://sacola.pagseguro.uol.com.br/0ad3545a-8ad1-4423-9443-77d17253b792');
       setBotaoClicado(true);
+      setValorTotal('R$ 15,00')
     };
-    function setLinkDois () {
+    function setBotaoDois () {
       setLinkHref('https://sacola.pagseguro.uol.com.br/caf6562d-0152-4517-9833-39d26399185e');
       setBotaoClicado(true);
+      setValorTotal('R$ 25,00')
     };
-    function setLinkTres () {
+    function setBotaoTres () {
       setLinkHref('https://sacola.pagseguro.uol.com.br/5234f51e-fe22-4b88-8c92-54f3e239186e');
       setBotaoClicado(true);
+      setValorTotal('R$ 35,00')
     };
-    function setLinkQuatro () {
+    function setBotaoQuatro () {
       setLinkHref('https://sacola.pagseguro.uol.com.br/6a8d426e-c6ae-4e33-9e7c-c096069a2402');
       setBotaoClicado(true);
+      setValorTotal('R$ 55,00')
     };
 
     function handleButtonClick(index: number) {
@@ -36,7 +46,7 @@ export default function Values() {
           className={`${style.value} ${
             selectedButton === 0 ? style.selectedButton : ''
           }`}
-          onClick={() => {handleButtonClick(0); setLinkUm()}}
+          onClick={() => {handleButtonClick(0); setBotaoUm()}}
         >
           $ 15,00
         </button>
@@ -44,7 +54,7 @@ export default function Values() {
           className={`${style.value} ${
             selectedButton === 1 ? style.selectedButton : ''
           }`}
-          onClick={() =>{ handleButtonClick(1); setLinkDois()}}
+          onClick={() =>{ handleButtonClick(1); setBotaoDois()}}
         >
           $ 25,00
         </button>
@@ -52,7 +62,7 @@ export default function Values() {
           className={`${style.value} ${
             selectedButton === 2 ? style.selectedButton : ''
           }`}
-          onClick={() =>{ handleButtonClick(2); setLinkTres();}}
+          onClick={() =>{ handleButtonClick(2); setBotaoTres();}}
         >
           $ 35,00
         </button>
@@ -60,7 +70,7 @@ export default function Values() {
           className={`${style.value} ${
             selectedButton === 3 ? style.selectedButton : ''
           }`}
-          onClick={() => {handleButtonClick(3); setLinkQuatro();}}
+          onClick={() => {handleButtonClick(3); setBotaoQuatro();}}
         >
           $ 55,00
         </button>
@@ -78,8 +88,6 @@ export default function Values() {
           <button disabled className={style.buttonContinueDisabled}>Continuar</button>
           <span>* Selecione algum valor</span>
         </div>
-        
-        
       )}
     </div>
   );

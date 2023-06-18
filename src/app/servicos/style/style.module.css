@@ -5,16 +5,17 @@
   text-align: left;
 
   margin-bottom: 53px;
-}
+  margin-left: 130px;}
 .mainServicos{
-  margin: 53px 80px;
   display: flex;
-  justify-content:flex-start;
   flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 53px auto;
 }
 .containerServicos{
   display: flex;
   flex-wrap: wrap;
-
-  gap: 60px;
+  justify-content: center;
+  gap: 30px;
 }

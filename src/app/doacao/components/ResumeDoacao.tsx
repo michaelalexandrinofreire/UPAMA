@@ -1,8 +1,11 @@
 import style from '../style/globals.module.css'
-import React, { useState } from 'react';
+import { useState } from 'react'
 
-export default function ResumeDoacao(){
-    
+interface resumeProps {
+    valorTotal: string;
+}
+
+export default function ResumeDoacao({ valorTotal }: resumeProps){
 
     return(
         <div className={style.resumeContainer}>
@@ -30,7 +33,7 @@ export default function ResumeDoacao(){
                     <p>Instituição</p> <span>UPAMA</span>
                 </div>
                 <div className={style.resume}>
-                    <p>Total</p> <span className={style.total}></span>
+                    <p>Total</p> <span className={style.total}>{valorTotal}</span>
                 </div>
             </div>
         </div>
