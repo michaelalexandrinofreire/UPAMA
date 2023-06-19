@@ -62,6 +62,7 @@ export default function PaginaDoacao() {
     function mostrarPix(){
       setMostrarPix(true);
       setMostrarValores(false);
+      setValorTotal('0');
     }
     function handleButtonBgPix() {
       setButtonBgCartao('white');

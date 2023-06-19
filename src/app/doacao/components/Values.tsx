@@ -82,6 +82,11 @@ export default function Values({ valorTotal, setValorTotal }: valueProps) {
             <button className={style.buttonContinue}>Continuar</button>
           </a>
           <span>* Sua doação será processada pelo PagBank</span>
+          <div className={style.containerP}>
+            <p>Ou doe usando nossos dados bancários:</p>
+            <p>Agência: 0684 Operador: 013 Conta: 65.541-6 <br /> Banco: Caixa Econômica Federal</p>
+          </div>
+          
         </div>
       ) : (
         <div className={style.containerContinuar}>
