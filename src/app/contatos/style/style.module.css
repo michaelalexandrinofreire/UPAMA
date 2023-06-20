@@ -233,3 +233,243 @@
 .formulario form select:hover, .formulario form select:focus{
     border: 1px solid #DC9D0B;
 }
+@media screen and (max-width: 480px){
+  .mainContatos{
+    margin: 53px 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+}
+.mainContatos h1{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+
+    margin-bottom: 22px;
+}
+
+.basicContatos h2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+    margin-bottom: 10px;
+}
+.basicContatos p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+.sede{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    gap: 3px;
+
+    width: 350px;
+}
+.sede a{
+    color: #1a73e8;
+    font-size: 14px;
+    width: max-content;
+}
+.sede button{
+    width: 180px;
+    height: 35px;
+
+    background-color: #2EB431;
+
+    border: none;
+    border-radius: 5px;
+
+    margin-top: 5px;
+    margin-bottom: 50px;
+
+    cursor: pointer;
+}
+.sede button a{
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+.socialContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+
+    margin-bottom: 50px;
+}
+.redeSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 5px 0;
+}
+.redeSocial button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 55px;
+    width: 55px;
+
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+
+    cursor: pointer;
+}
+.redeSocial button svg{
+    color: #333333 ;
+}
+.redeSocial h3{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+
+    margin-top: 4.65px;
+}
+
+.socialContainer a:hover .whatsapp{
+    background-color: #27c737;
+    transition: background .8s;
+    border: none;
+  }
+  .socialContainer a:hover .instagram{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    transition: background .8s;
+    border: none;
+  }
+  .socialContainer a:hover .facebook{
+    background-color: #3B5998;
+    transition: background .8s;
+    border: none;
+  }
+  .socialContainer a:hover .youtube{
+    background-color: #ff0000;
+    transition: all .8s;
+    border: none;
+  }
+  .socialContainer a:hover .whatsapp svg{
+    background-color: transparent;
+    color: white;
+  }
+  .socialContainer a:hover .instagram svg{
+    background-color: transparent;
+    color: white;
+  }
+  .socialContainer a:hover .facebook svg{
+    background-color: transparent;
+    color: white;
+  }
+  .socialContainer a:hover .youtube svg{
+    background-color: transparent;
+    color: white;
+  }
+  .formulario h2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+    margin-bottom: 20px;
+  }
+ .formulario form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 350px;
+
+    padding: 20px;
+ }
+ .formulario form input{
+    width: 100%;
+    height: 35px;
+
+    border-radius: 5px;
+    border: 1px solid #27c737;
+
+    margin-bottom: 4.65px;
+    padding-left: 4.65px;
+ }
+ .formulario form input:focus, .formulario form textarea:focus{
+    border-color: #DC9D0B;
+    background-color: #f5f5f5;
+    outline: none;
+ }
+ .formulario form select{
+    width: 100%;
+    height: 35px;
+
+    border-radius: 5px;
+    border: 1px solid #27c737;
+
+    margin-bottom: 4.65px;
+    padding-left: 4.65px;
+ }
+ .formulario form textarea{
+    width: 100%;
+    height: 80px;
+
+    border-radius: 5px;
+    border: 1px solid #27c737;
+
+    margin-bottom: 4.65px;
+    padding-left: 4.65px;
+    padding-top: 4.65px;
+ }
+ .formulario form label{
+    margin-bottom: 4.65px;
+    font-size: 14px;
+    font-weight: 400;
+ }
+ .nameemail{
+    display: block;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+ }
+ .nameemail div{
+    display: flex;
+    flex-direction: column;
+ }
+ .formulario form button{
+    width: 100%;
+    height: 35px;
+
+    background-color: #2EB431;
+
+    border: none;
+    border-radius: 5px;
+
+    margin-top: 15px;
+
+    cursor: pointer;
+
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+ }
+.formulario form select option:checked{
+    color: white;
+    background-color: #DC9D0B;
+}
+.formulario form select:hover, .formulario form select:focus{
+    border: 1px solid #DC9D0B;
+}
+}

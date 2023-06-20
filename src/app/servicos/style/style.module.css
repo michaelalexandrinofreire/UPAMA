@@ -19,3 +19,27 @@
   justify-content: center;
   gap: 30px;
 }
+
+@media screen and (max-width:480px){
+  .titleServicos{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+  
+    margin-bottom: 53px;
+    margin-left: 30px;}
+  .mainServicos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 53px auto;
+  }
+  .containerServicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}

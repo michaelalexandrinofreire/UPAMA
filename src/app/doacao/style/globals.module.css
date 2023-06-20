@@ -146,7 +146,12 @@
     background-color: rgba(212, 212, 212, 0.651);
     margin-right: 34px;
 }
-
+.resumeContainer{
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
 .resumeContainer h2{
     font-size: 20px;
     font-weight: 400;
@@ -254,4 +259,267 @@
 }
 .containerP p{
     margin-bottom: 3px;
+}
+
+@media screen and (max-width:480px){
+    .mainDoacao{
+        margin: 0 10px;
+    }
+    .mainDoacao h1{
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 42px;
+        text-align: left;
+    
+        margin: 53px 0px;
+        margin-bottom: 28px;
+    }
+    .formasContainer h2, .valuesContainer h2{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+    .valuesContainer{
+        margin-bottom: 50px;
+    }
+    .valuesContainer h2{
+        margin: 10px 0;
+    }
+    .link{
+        margin-top: 30px;
+    
+        height: 45px;
+        width: 436px;
+    }
+    .buttonContinue{
+        width: 350px;
+        height: 100%;
+    
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    
+        background-color: #2EB431;
+    }
+    .buttonContinueDisabled{
+        height: 45px;
+        width: 350px;
+    
+        margin-top: 30px;
+        
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    
+        color: white;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+    
+        background-color: #8f8f8f;
+    }
+    .formasDoacao{
+        display: flex;
+        justify-content: space-between;
+    
+        gap: 60px;
+    }
+    .containerDoacao{
+        display: block;
+        justify-content: center;
+    }
+    .forma{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+        margin: 35px 0;
+    }
+    .forma h3{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;
+    
+        margin-top: 4.65px;
+    
+        width: 70%;
+    }
+    .svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        height: 70px;
+        width: 70px;
+    
+        background-color: white;
+        border: 1px solid #2EB431;
+        border-radius: 50%;
+    
+        cursor: pointer;
+    }
+    
+    .svg svg{
+        height: 40px;
+        width: 40px;
+    }
+    .values{
+        display: flex;
+        gap: 18px;
+    }
+    .value{
+        height: 35px;
+        width: 80px;
+    
+        border-radius: 5px;
+        border: 1px solid #2EB431;
+    
+        background-color: white;
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: center;
+    
+        cursor: pointer;
+    }
+    
+    .selectedButton{
+        background-color: #2EB431;
+        color: white;
+    }
+    .svg:focus{
+        background-color: #2EB431;
+    }
+    .sectionResume{
+        display: flex;
+        margin-bottom: 100px;
+    }
+    .sectionResume::before{
+        content: "";
+        display: none;
+        width: 2px;
+        height: 450px;
+        background-color: rgba(212, 212, 212, 0.651);
+        margin-right: 34px;
+    }
+    
+    .resumeContainer h2{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 36px;
+        text-align: left;
+    
+        margin-bottom: 2px;
+    }
+    .resumeContainer img{
+        width: 100px;
+        margin-bottom: 0px;
+    }
+    .informationsResume::before, .informationsResume::after{
+        content: "";
+        display: block;
+        height: 1px;
+        width: 350px;
+        background-color: rgba(212, 212, 212, 0.651);
+    }
+    
+    .informationsResume::before{
+        margin-bottom: 20px
+    }
+    .resume{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .resume p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: center;
+    
+        margin-bottom: 20px;
+    }
+    .pix{
+        margin: 30px 10;
+    
+        width: 100%;
+    }
+    .pix h2{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+    }
+    
+    .pixContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pixContainer img{
+        margin-top: 20px;
+        width: 160px;
+    }
+    .pixContainer p{
+        font-size: 12px;
+        font-weight: 600;
+    
+        margin-bottom: 2px;
+    }
+    .writePix{
+        margin-top: 6px;
+        padding: 6px;
+    
+        background-color: #2EB431;
+        color: white;
+    
+        border: none;
+        border-radius: 5px;
+    
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    
+        cursor: pointer;
+    }
+    .total{
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+    }
+    .containerContinuar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .containerContinuar span{
+        margin-top: 5px;
+        font-size: 11px;
+    }
+    .containerP{
+        font-size: 12px;
+        font-weight: 600;
+    
+        margin-top: 20px;
+    }
+    .containerP p{
+        margin-bottom: 3px;
+    }
+    
 }
