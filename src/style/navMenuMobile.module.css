@@ -1,0 +1,53 @@
+.menuMobile{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  backdrop-filter: blur(3px);
+  background-color: rgba(93, 128, 86, 0.801);
+}
+.menuMobile svg{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  font-size: 35px;
+  color: white;
+}
+.menuMobile nav ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.menuMobile nav ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.menuClose{
+  display: none;
+}
+.menuMenu{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  font-size: 35px;
+  color: white;
+}
+@media screen and (max-width:480px){
+  .menuClose{
+    display: block;
+  }
+}
