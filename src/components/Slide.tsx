@@ -32,7 +32,7 @@ export default function Slide() {
       <img src={images[currentImage]} alt="Slide" className={styles.slideImage} />
       <div className={styles.overlay}>
         <h2 className={styles.titulo}>Torne-se um aliado do meio ambiente</h2>
-        <div style={{ marginBottom: '55.7px', marginLeft: '65px' }}>
+        <div className={styles.buttonDoa}>
           <a href="/doacao">
             <Button text="Doe agora"/>
           </a>

@@ -1,6 +1,7 @@
 import style from '../contatos/style/style.module.css'
 
 export default function Contatos(){
+    
     return(
         <main className={style.mainContatos}>
             <h1>Contatos</h1>

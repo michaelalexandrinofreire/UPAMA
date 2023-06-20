@@ -11,9 +11,11 @@ interface AcaoProps {
 
 export default function Acao({ title, description, imageSrc, otherDescription }: AcaoProps) {
   const [showDescription, setShowDescription] = useState(false);
-  
-  const handleButtonClick = () => {
+  const  [handleTitle, setHundleTitle] = useState('Ler Mais');
+
+  function handleButtonClick(){
     setShowDescription(!showDescription);
+    setHundleTitle(showDescription ? 'Ler Mais' : 'Ler Menos');
   };
 
   return (
@@ -24,7 +26,7 @@ export default function Acao({ title, description, imageSrc, otherDescription }:
         <p>{description}</p>
         {showDescription && <p className={styles.otherDescription}>{otherDescription}</p>}
       </div>
-      <button className={styles.button} onClick={handleButtonClick}>Leia Mais</button>
+      <button className={styles.button} onClick={handleButtonClick}>{handleTitle}</button>
       
     </div>
   );

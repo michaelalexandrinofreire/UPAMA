@@ -2,6 +2,7 @@ import Acao from "@/components/Acao";
 import style from '../../app/servicos/style/style.module.css'
 export default function Servicos(){
     return(
+
         <main className={style.mainServicos}>
             <h1 className={style.titleServicos}>Serviços</h1>
             <div className={style.containerServicos}>

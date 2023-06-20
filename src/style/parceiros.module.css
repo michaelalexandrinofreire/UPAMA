@@ -29,3 +29,36 @@
     height: 106px;
     width: 234px;
   }
+@media screen and (max-width:450px){
+  
+.parceiros{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-bottom: 24px;
+}
+.tituloParceiro{
+  font-family: 'Inter', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+
+  margin-top: 29px;
+  margin-left: 80px;
+  margin-bottom: 37px;
+}
+.image1{
+  height: 45px;
+  width: 83px;
+}
+.image2{
+  height: 80px;
+  width: 70px;
+}
+.image3{
+  height: 56px;
+  width: 134px;
+}
+}
