@@ -4,7 +4,7 @@
   line-height: 42px;
   text-align: left;
 
-  margin-top: 20px;
+  margin-top: 80px;
   margin-bottom: 53px;
   margin-left: 130px;}
 .mainServicos{
@@ -27,8 +27,9 @@
     font-weight: 400;
     line-height: 42px;
     text-align: left;
-  
-    margin-bottom: 53px;
+    
+    margin-top: 20px;
+    margin-bottom: 23px;
     margin-left: 30px;}
   .mainServicos{
     display: flex;

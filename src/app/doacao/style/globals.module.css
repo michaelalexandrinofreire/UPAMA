@@ -1,5 +1,6 @@
 .mainDoacao{
-    margin: 0 120px;
+    margin: 150px 120px;
+    margin-bottom: 20px;
 }
 .mainDoacao h1{
     font-size: 35px;
@@ -7,7 +8,7 @@
     line-height: 42px;
     text-align: left;
 
-    margin: 53px 25px;
+    margin: 53px 47px;
 }
 .formasContainer h2, .valuesContainer h2{
     font-size: 20px;
@@ -264,7 +265,7 @@
 }
 @media screen and (max-width:480px){
     .mainDoacao{
-        margin: 0 10px;
+        margin: 0px 10px;
     }
     .mainDoacao h1{
         font-size: 35px;

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
 
-    margin: 58px auto;
+    margin: 108px auto;
 }
 .textQuemSomos{
     height: 249px;
@@ -15,7 +15,6 @@
     text-align: left;
     
     margin-bottom: 68px;
-    margin-top: 80px;
 }
 .textQuemSomos p{
     font-size: 17px;
@@ -49,7 +48,7 @@
 @media screen and (max-width: 480px){
     .quemSomosContainer{
         display:block;
-        margin: 58px 10px;
+        margin: 78px 10px;
     }
     .textQuemSomos{
         height: 100%;
