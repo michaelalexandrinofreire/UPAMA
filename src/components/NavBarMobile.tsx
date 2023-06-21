@@ -36,7 +36,7 @@ export default function NavBarMobile(){
                 <a href="/contatos">Contato</a>
               </li>
               <li>
-                <a href="/doacao">Doe Agora</a>
+                <a href="/doacao" className='doeAgora'>Doe Agora</a>
               </li>
             </ul>
           </nav>

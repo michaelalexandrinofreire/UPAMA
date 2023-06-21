@@ -95,6 +95,8 @@
     height: 270px;
 
     margin-top: 60px;
+
+    z-index: 1;
    } 
    .slideImage {
     height: 100%;
