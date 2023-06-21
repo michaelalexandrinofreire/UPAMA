@@ -63,15 +63,15 @@ export default function Contatos(){
                 <div className={style.formulario}>
                     <h2>Solicite nossos serviços</h2>
                 <form action="https://api.staticforms.xyz/submit" method="post">
-                    <input type="hidden" name="accessKey" value="de260494-4f11-423c-ad35-3d67bcad3c66"/>
+                    <input type="hidden" name="accessKey" value="de260494-4f11-423c-ad35-3d67bcad3c66" />
                     <div className={style.nameemail}>
                         <div className={style.nomelabel}>
                             <label  className={style.nome}>Nome</label>
-                            <input type="text" name="name" placeholder="Seu nome ou da instituição"/>
+                            <input type="text" name="name" placeholder="Seu nome ou da instituição" pattern="[a-zA-Z0-9]+" title="Apenas letras e números são permitidos" required/>
                         </div>
                         <div className={style.emaillabel}>
                             <label className={style.email}>E-mail</label>
-                            <input type="email" name="email" placeholder="Seu e-mail"/>
+                            <input type="email" name="email" placeholder="Seu e-mail" required/>
                         </div>
                     </div>
                     <label htmlFor="">Tipo de serviço</label>
@@ -83,7 +83,7 @@ export default function Contatos(){
                         <option value="Cursos e Formações">Cursos e Formações</option>
                     </select>
                     <label htmlFor="">Mensagem</label>
-                    <textarea name="message" id=""  placeholder="Sua mensagem"></textarea>
+                    <textarea name="message" id=""  placeholder="Sua mensagem" style={{'resize': 'none'}}></textarea>
                     <input type="hidden" name="redirectTo" value="https://upama.vercel.app/contatos"></input>
                     <button type="submit" value="Submit" className={style.buttonform}>Enviar</button>
                 </form>

@@ -12,7 +12,7 @@
   align-items: center;
 
   backdrop-filter: blur(3px);
-  background-color: rgba(93, 128, 86, 0.801);
+  background-color: rgba(112, 112, 112, 0.671);
 }
 .menuMobile svg{
   position: absolute;
@@ -44,10 +44,89 @@
   right: 1rem;
 
   font-size: 35px;
-  color: white;
+  color: #2EB431;
+}
+.instituicao{
+  width: 100px;
+}
+.logo{
+  width: 50px;
+  height: 20px;
 }
 @media screen and (max-width:480px){
   .menuClose{
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    height: 60px;
+    width: 100%;
+
+    position: fixed;
+  }
+  .menuMobile{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    backdrop-filter: blur(3px);
+    background-color: rgba(112, 112, 112, 0.74);
+  }
+  
+  .menuMobile svg{
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  
+    font-size: 32px;
+    color: white;
+  }
+  .menuMobile nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .menuMobile nav ul li a{
+      font-size: 16px;
+      font-weight: 700;
+      text-align: center;
+      color: white;
+  }
+  .menuMenu{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  
+    font-size: 35px;
+    color: #2EB431;
+  }
+  .instituicao{
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img{
+    width: 45px;
+    height: 55px;
   }
 }

@@ -10,7 +10,7 @@ export default function NavBar(){
     </div>
     <div className={styles.logoLign}></div>
     <div className={styles.logo}>
-    <img src="/images/favicon.ico" alt="logo da UPAMA" />
+      <img src="/images/favicon.ico" alt="logo da UPAMA" />
     </div>
     <div className={styles.upama}>
      União Protetora dos Animais e Meio Ambiente

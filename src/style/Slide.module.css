@@ -23,7 +23,7 @@
 .titulo {
  height: 97.48147583007812px;
  width: 379px;
- margin-left: 65px;
+ margin-left: 80px;
  margin-bottom: 26.69px;
  font-size: 35px;
  font-weight: 700;
@@ -83,14 +83,19 @@
 .activeDot {
  background-color: #ffffff;
 }
-
+.buttonDoa{
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-bottom: 55.7px;
+ }
 @media screen and (max-width:450px){
   .slideContainer {
     position: relative;
     width: 100%;
     height: 270px;
-   }
-   
+
+    margin-top: 60px;
+   } 
    .slideImage {
     height: 100%;
     width: 100%;
@@ -111,14 +116,15 @@
     height: 77.48px;
     width: 179px;
     margin-left: 65px;
-    margin-bottom: 75px;
+    margin-bottom: 60px;
     font-size: 22px;
     font-weight: 700;
     text-align: left;
    }
    .buttonDoa{
-    margin-top: 30px;
+    margin-top: 20px;
     margin-left: 65px;
+    margin-bottom: 10px;
    }
    .navigation {
     position: absolute;
