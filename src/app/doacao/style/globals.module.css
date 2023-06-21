@@ -369,7 +369,9 @@
     
         cursor: pointer;
     }
-    
+    .resumeContainer{
+        width: 100%;
+    }
     .svg svg{
         height: 40px;
         width: 40px;
