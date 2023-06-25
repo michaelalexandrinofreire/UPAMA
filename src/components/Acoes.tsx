@@ -11,20 +11,17 @@ export default function Acoes(){
     imgSrc="/images/educacaoambiental.jfif"
     altImg="Plantio de muda em escola"
     title="Educação Ambiental"
-    texto="A educação ambiental objetiva a compreensão dos conceitos relacionados ao meio ambiente, sustentabilidade, preservação e conservação. Tendo o
-    impacto de despertar uma consciência crítica em relação aos impactos das ações humanas no meio ambiente."/>
+    texto="A educação ambiental tem como objetivo promover a compreensão dos conceitos relacionados ao meio ambiente, sustentabilidade, preservação e conservação, despertando uma consciência crítica em relação aos impactos das ações humanas. Busca capacitar os indivíduos a tomar decisões informadas, adotar práticas responsáveis e participar ativamente na resolução dos desafios ambientais."/>
     <Acao
     imgSrc="/images/fauna.jfif"
     altImg="Cobra resgatada pela UPAMA"
     title="Resgate de fauna"
-    texto="A equipe de resgate de animais silvestre da Instituição UPAMA, tem a enorme alegria e gratidão de poder contribuir na preservação da nossa fauna, através do
-    resgate de animais em situação de vulnerabilidade."/>
+    texto="A equipe de resgate de animais silvestres da Instituição UPAMA sente uma imensa alegria e gratidão por poder desempenhar um papel significativo na preservação da nossa fauna, resgatando e auxiliando animais em situação de vulnerabilidade. Ao realizar essas ações, contribuímos para a proteção e conservação da vida selvagem, promovendo um impacto positivo e duradouro em nosso ecossistema. "/>
     <Acao
     imgSrc="/images/reflorestamento.jfif"
     altImg=""
     title="Reflorestamento"
-    texto="A instituição UPAMA contribuir para o reflorestamento de áreas degradadas e desmatadas, com o plano de manejo que monitora o desenvolvimento natural da área e com o
-    plantio de mudas de forma adequada."/>
+    texto="A instituição UPAMA desempenha um papel fundamental no reflorestamento de áreas degradadas e desmatadas, por meio de um plano de manejo que monitora o desenvolvimento natural dessas regiões e implementa o plantio adequado de mudas.  A instituição contribui para a preservação do meio ambiente e construção de um futuro sustentável positivo, onde a natureza possa se recuperar e florescer novamente com harmonia."/>
    </div>
    <div className={styles.containerAgende}>
       <a href="https://api.whatsapp.com/send?phone=558899214908&text=Ol%C3%A1!" target="_blank">
