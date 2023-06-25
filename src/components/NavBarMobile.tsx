@@ -1,8 +1,9 @@
 "use client"
 import React, { useState } from 'react';
-import { FaBars, FaTimes } from 'react-icons/Fa';
-import{ BiHomeAlt2 } from 'react-icons//bi'
-import styles from '../style/navMenuMobile.module.css'
+import{ HiMenu, HiX } from 'react-icons/hi'
+import{ BiHomeAlt2 } from 'react-icons/bi';
+import { FaHandHoldingHeart } from 'react-icons/fa'
+import styles from '../style/navMenuMobile.module.css';
 
 export default function NavBarMobile(){
   const [isOpen, setIsOpen] = useState(false);
@@ -31,14 +32,14 @@ export default function NavBarMobile(){
                 <a href="/contatos">Contato</a>
               </li>
               <li className={styles.doeAgora}>
-                <a href="/doacao" >Doe Agora</a>
+                <a href="/doacao"><div>Doe Agora</div> <FaHandHoldingHeart style={{'color': 'white', 'fontSize': '44px', 'paddingRight': '20px'}}/> </a>
               </li>
             </ul>
           </nav>
-          <FaTimes onClick={handleMenuToggle} style={{'fontSize': '32px','color': '#28992a'}}/>
+          <HiX onClick={handleMenuToggle} style={{'fontSize': '32px','color': 'white', 'fontWeight': '300'}}/>
         </div>
       ) : (
-        <FaBars onClick={handleMenuToggle}style={{'fontSize': '32px', 'color': '#28992a'}}/>
+        <HiMenu onClick={handleMenuToggle}style={{'fontSize': '32px', 'color': '#2EB431'}}/>
       )}
       <div className={styles.instituicao}>
         Instituição UPAMA
