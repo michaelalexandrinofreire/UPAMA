@@ -1,33 +1,42 @@
 "use client"
-import { useState } from 'react';
+import React, { useState } from 'react';
 import styles from '../style/acoes.module.css'
+import { title } from 'process';
 
-interface AcaoProps {
+interface TextoParcialProps {
+  texto: string;
   title: string;
-  description: string;
-  imageSrc: string;
-  otherDescription: String;
+  imgSrc: string;
+  altImg: string;
 }
 
-export default function Acao({ title, description, imageSrc, otherDescription }: AcaoProps) {
-  const [showDescription, setShowDescription] = useState(false);
-  const  [handleTitle, setHundleTitle] = useState('Ler Mais');
+const TextoParcial: React.FC<TextoParcialProps> = ({ texto, title, imgSrc, altImg }) => {
+  const [mostrarTextoCompleto, setMostrarTextoCompleto] = useState(false);
+  const textoParcial = texto ? texto.slice(0, texto.length / 2) : '';
 
-  function handleButtonClick(){
-    setShowDescription(!showDescription);
-    setHundleTitle(showDescription ? 'Ler Mais' : 'Ler Menos');
+  const handleClick = () => {
+    setMostrarTextoCompleto(!mostrarTextoCompleto);
   };
 
   return (
-    <div className={styles.acao}>
-      <img src={imageSrc} alt="" />
-      <h3>{title}</h3>
-      <div>
-        <p>{description}</p>
-        {showDescription && <p className={styles.otherDescription}>{otherDescription}</p>}
-      </div>
-      <button className={styles.button} onClick={handleButtonClick}>{handleTitle}</button>
-      
+    <div>
+      {mostrarTextoCompleto ? (
+        <div className={styles.acao}>
+          <img src={imgSrc} alt={altImg} />
+          <h3>{title}</h3>
+          <p>{texto}</p>
+          <button onClick={handleClick} className={styles.button}>Leia Menos</button>
+        </div>
+      ) : (
+        <div className={styles.acao}>
+          <img src={imgSrc} alt={altImg} />
+          <h3>{title}</h3>
+          <p>{textoParcial}</p>
+          <button onClick={handleClick} className={styles.button}>Leia Mais</button>
+        </div>
+      )}
     </div>
   );
-}
+};
+
+export default TextoParcial;

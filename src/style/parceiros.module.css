@@ -29,7 +29,7 @@
     height: 106px;
     width: 234px;
   }
-@media screen and (max-width:450px){
+@media screen and (max-width:480px){
   
 .parceiros{
   display: flex;

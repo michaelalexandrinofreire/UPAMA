@@ -109,12 +109,8 @@
 .button:hover{
   background-color: #dc7b0b;
 }
-.otherDescription{
-  text-align: justify;
-  margin-bottom: 5px;
-}
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 480px){
   .acaoContainer{
     margin: 20px 20px;
     display: flex;

@@ -1,7 +1,11 @@
+"use client"
 import style from '../contatos/style/style.module.css'
 
 export default function Contatos(){
-    
+    const handleSubmit = () => {
+        alert('O formulário foi enviado com sucesso!');
+    };
+
     return(
         <main className={style.mainContatos}>
             <h1>Contatos</h1>
@@ -83,9 +87,20 @@ export default function Contatos(){
                         <option value="Cursos e Formações">Cursos e Formações</option>
                     </select>
                     <label htmlFor="">Mensagem</label>
-                    <textarea name="message" id=""  placeholder="Sua mensagem" style={{'resize': 'none'}}></textarea>
-                    <input type="hidden" name="redirectTo" value="https://upama.vercel.app/contatos"></input>
-                    <button type="submit" value="Submit" className={style.buttonform}>Enviar</button>
+                    <textarea 
+                    name="message" 
+                    id=""  
+                    placeholder="Sua mensagem" 
+                    style={{'resize': 'none'}}></textarea>
+                    <input 
+                    type="hidden" 
+                    name="redirectTo" 
+                    value="https://upama.vercel.app/contatos"></input>
+                    <button 
+                    type="submit" 
+                    value="Submit" 
+                    className={style.buttonform}
+                    onClick={handleSubmit}>Enviar</button>
                 </form>
                 </div> 
             </div>  
