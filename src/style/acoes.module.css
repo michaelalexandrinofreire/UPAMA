@@ -114,25 +114,26 @@
 
 @media screen and (max-width: 480px){
   .acaoContainer{
-    margin: 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: 40px 0;
   }
   .tituloAcoes{
     font-family: 'Inter', sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 30px;
     text-align: left;
-  
+    
+    margin-top: 20px;
     margin-bottom: 22px;
+    margin-left: 20px;
   }
   
   .acoes{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
   }
   .acao{
@@ -163,9 +164,9 @@
   }
   .acao h3{
     font-family: 'Inter', sans-serif;
-    margin-bottom: 1px;
-    font-size: 16px;
-    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 19px;
     text-align: left;
   }
@@ -176,6 +177,7 @@
 .containerAgende{
     display: flex;
     justify-content:flex-end;
+    margin-bottom: 20px;
   }
   .containerAgende a{
     margin-top: 53px;
@@ -206,8 +208,8 @@
     font-family: 'Inter', sans-serif;
 }
 .button{
-  height: 35px;
-  width: 100px;
+  height: 25px;
+  width: 80px;
 
   background-color: #DC9D0B;
 
@@ -215,7 +217,7 @@
   border-radius: 5px;
 
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 15px;
   color: white;
 

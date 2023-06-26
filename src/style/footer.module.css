@@ -124,7 +124,6 @@
     color: #fff;
     font-size: 10px;
     font-weight: 600;
-    line-height: 12px;
     font-family: 'Inter', sans-serif;
   }
   .footerInformation{
@@ -132,38 +131,44 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
     width: 100%;
     margin-bottom: 10px;
   }
   .socialSvg{
     display: flex;
-    gap: 13.45px;
+    gap: 13px;
   }
   .upamaFooter{
-    margin-top: 10px;
+    margin-top: 25px;
+    margin-bottom: 10px;
 
     display: flex;
     flex-direction: column;
+    align-items: center;
+
     gap: 5px;
 
-    font-weight: 400;
+    font-weight: 300;
     text-align: center;
-    font-size: 11px;
+    font-size: 10px;
   }
   .linksPage{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-  
+    
+    width: 100%;
     gap: 17px;
   
     margin-bottom: 20px;
+    margin-top: 30px;
   }
   .link{
     background: #245725;
   
-    width: 140px;
+    width: 41%;
   
     padding: 6px 6px;
   
@@ -179,38 +184,52 @@
 
 .social{
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
-    gap: 5px;
     flex-wrap: wrap;
+
+    gap: 27px;
+    
     width: 100%;
   }
-  
+  .social::before{
+    content: '';
+    width: 100%;
+    border-top: 1px solid rgba(255,255,255,.1);
+  }
   .social div{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: transparent;
+
+    background-color: #245725;
     border-radius: 5px;
-    width: 74px;
+
+    width: 50px;
+    height: 50px;
+
     transition: .6s;
   }
   .social div a{
     width: 100%;
-    padding: 3px 3px;
-    border-radius: 6px;
+    height: 100%;
+    padding: 6px 6px;
+    border-radius: 3px;
   
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 0px;
   
     font-size: 12px;
     text-decoration: none;
   }
-  .social div a svg{
-    width: 16px;
-    height: 14px;
+  .social div a div{
     display: none;
+  }
+  .social div a svg{
+    width: 26px;
+    height: 20px;
   }
 
 }

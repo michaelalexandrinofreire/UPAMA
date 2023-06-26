@@ -241,27 +241,27 @@
 .container{
     display: flex;
     flex-direction: column;
-    justify-content:baseline;
+    justify-content:center;
+    align-items: center;
 }
 .mainContatos h1{
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 42px;
+    font-size: 18px;
+    font-weight: 600;
     text-align: left;
 
     margin-bottom: 22px;
 }
 
 .basicContatos h2{
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 24px;
     text-align: left;
 
     margin-bottom: 10px;
 }
 .basicContatos p{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 19px;
     text-align: left;
@@ -281,8 +281,8 @@
     width: max-content;
 }
 .sede button{
-    width: 180px;
-    height: 35px;
+    width: 140px;
+    height: 25px;
 
     background-color: #2EB431;
 
@@ -296,7 +296,7 @@
 }
 .sede button a{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 19px;
     text-align: center;

@@ -1,6 +1,10 @@
-
 .missao{
-    background-color: #2F7931CC;
+  background-color: #2F7931CC;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .tituloMissao{
     font-style: normal;
@@ -10,7 +14,6 @@
   
     color: #FFFFFF;
   
-    margin-left: 358px;
     padding-top: 25px;
     margin-bottom: 22px;
   }
@@ -30,29 +33,33 @@
     
 .missao{
   background-color: #2F7931CC;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .tituloMissao{
   font-style: normal;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
 
   color: #FFFFFF;
 
-  margin-left: 78px;
-  padding-top: 25px;
+  padding-top: 15px;
   margin-bottom: 22px;
 }
 .missao .pMissao{
-left: calc(50% - 546px/2);
+  left: calc(50% - 546px/2);
 
-font-style: italic;
-font-weight: 500;
-font-size: 18px;
-line-height: 22px;
-color: #FFFFFF;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
 
-text-align: center;
-padding-bottom: 57px;
+  text-align: center;
+  padding-bottom: 37px;
 }
-  }
+
+}

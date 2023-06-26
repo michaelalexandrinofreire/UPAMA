@@ -265,29 +265,30 @@
 }
 @media screen and (max-width:480px){
     .mainDoacao{
-        margin: 0px 10px;
+        margin: 0px;
     }
     .mainDoacao h1{
-        font-size: 35px;
-        font-weight: 400;
+        font-size: 18px;
+        font-weight: 600;
         line-height: 42px;
         text-align: left;
     
-        margin: 53px 0px;
+        margin: 53px 20px;
         margin-bottom: 28px;
         margin-top: 75px;
     }
     .formasContainer h2, .valuesContainer h2{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 24px;
         text-align: left;
     }
     .valuesContainer{
         margin-bottom: 50px;
+        
     }
     .valuesContainer h2{
-        margin: 10px 0;
+        margin-left: 20px;
     }
     .link{
         margin-top: 30px;
@@ -296,15 +297,15 @@
         width: 436px;
     }
     .buttonContinue{
-        width: 350px;
-        height: 100%;
+        width: 300px;
+        height: 45px;
     
         border: none;
         border-radius: 5px;
         cursor: pointer;
     
         color: white;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 19px;
     
@@ -312,7 +313,7 @@
     }
     .buttonContinueDisabled{
         height: 45px;
-        width: 350px;
+        width: 300px;
     
         margin-top: 30px;
         
@@ -331,11 +332,13 @@
         display: flex;
         justify-content: space-between;
     
-        gap: 20px;
+        gap: 45px;
     }
     .containerDoacao{
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .forma{
         display: flex;
@@ -360,8 +363,8 @@
         justify-content: center;
         align-items: center;
     
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
     
         background-color: white;
         border: 1px solid #2EB431;
@@ -370,19 +373,21 @@
         cursor: pointer;
     }
     .resumeContainer{
-        width: 100%;
+        width: 350px;
     }
     .svg svg{
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
     }
     .values{
         display: flex;
-        gap: 18px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
     .value{
         height: 35px;
-        width: 80px;
+        width: 67px;
     
         border-radius: 5px;
         border: 1px solid #2EB431;
@@ -411,14 +416,14 @@
     .sectionResume::before{
         content: "";
         display: none;
-        width: 2px;
+        width: 1px;
         height: 450px;
         background-color: rgba(212, 212, 212, 0.651);
         margin-right: 34px;
     }
     
     .resumeContainer h2{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
         line-height: 36px;
         text-align: left;
@@ -446,12 +451,15 @@
         gap: 20px;
     }
     .resume p{
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         line-height: 19px;
         text-align: center;
     
         margin-bottom: 20px;
+    }
+    .resume span{
+        font-size: 14px;
     }
     .pix{
         margin: 30px 10;
@@ -511,7 +519,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
+
+        width: 346px
     }
     .containerContinuar span{
         margin-top: 5px;
