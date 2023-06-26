@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <main>
       <Slide/>
-      <Parceiros/>
-      <Acoes/>
       <Missao/>
-      <Premiacoes/>
+      <Acoes/>
+      <Premiacoes/>   
+      <Parceiros/>
     </main>
   )
 }

@@ -16,7 +16,8 @@ export default function Contatos(){
                         <h2>Sede da UPAMA</h2>
                         <p>Rua Paulo Antônio de Sousa, N°91</p>
                         <p>Vila Sao Francisco, Crato - CE, 63138-000</p>
-                        <a href="tel:+5588999214908">(88) 99921-4908</a> 
+                        <a href="tel:+5588999214908">(88) 99921-4908</a>
+                        <p>uniaoprotetora@gmail.com</p> 
                         <button>
                             <a href="https://www.google.com/maps/place/Uni%C3%A3o+Protetora+dos+Animais+e+Meio+Ambiente+-+UPAMA/@-7.15927,-39.409825,9z/data=!4m6!3m5!1s0x7a187cc0ebae36d:0xe77d4274e2dee744!8m2!3d-7.1592705!4d-39.409825!16s%2Fg%2F11frqx56yd?hl=pt-BR&entry=ttu"
                             target='blank'>

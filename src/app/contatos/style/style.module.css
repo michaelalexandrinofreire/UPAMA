@@ -379,8 +379,8 @@
     color: white;
   }
   .formulario h2{
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 24px;
     text-align: left;
 
@@ -435,7 +435,7 @@
  }
  .formulario form label{
     margin-bottom: 4.65px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
  }
  .nameemail{

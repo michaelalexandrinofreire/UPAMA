@@ -70,9 +70,56 @@
 }
 @media screen and (max-width: 480px){
     .quemSomosContainer{
-        margin: 78px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        margin: 78px auto;
+    }
+    .textQuemSomos{
+        height: 100%;
+        width: 340px;
+    }
+    .quemSomosContainer h1{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: left;
+        
+        margin-bottom: 8px;
+        margin-left: 20px;
+        margin-top: 2px;
+    }
+    .textQuemSomos p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+        text-align: justify;
+    }
+    .textQuemSomos span{
+        font-weight: 600;
+        font-size: 12px;
+        line-height:16.94px;
+    }
+    .imgInstituicao{
+        padding: 6px;
+        margin-top: 25px;
 
-        display: block;
+        border-radius: 10px;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        background-color: rgb(219, 219, 219);
+    }
+    .imgInstituicao img{
+        height: 230px;
+        width: 260px;
+        border-radius: 10px;
+        max-width: min-content;
+        object-fit: cover;
     }
     .container{
         display: flex;
@@ -80,56 +127,22 @@
         justify-content: center;
         align-items: center;
     }
-    .textQuemSomos{
-        height: 100%;
-        width: 100%;
-
+    .containertext{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-    }
-    .quemSomosContainer h1{
-        font-size: 18px;
-        font-weight: 600;
-        text-align: left;
-        
-        margin-bottom: 22px;
-        margin-left: 20px;
-    }
-    .textQuemSomos p{
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 16px;
-        text-align: justify;
-
-        width: 350px;
-        margin-bottom: 5px;
-    }
-    .textQuemSomos span{
-        font-weight: 600;
-        font-size: 16px;
-        line-height:16.94px;
-    }
-    .imgInstituicao{
-        height: min-content;
-        width: min-content;
-        border-radius: 6px;
     
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-        background-color: rgb(219, 219, 219);
-
-        padding: 5px;
-        margin-top: 35px;
-    }
-    .imgInstituicao img{
-        height: 180px;
+        height: 100%;
         width: 340px;
-        border-radius: 6px;
-        max-width: min-content;
-        object-fit: cover;
+    }
+    .containertext div h3{
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .containertext div{
+        font-size: 12px;
+        text-align: justify;
     }
 }

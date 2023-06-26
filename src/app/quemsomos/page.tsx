@@ -4,8 +4,6 @@ export default function PaginaQuemSomos(){
     return(
         <main className={style.quemSomosContainer}>
             <h1>Quem somos?</h1> 
-               
-            
             <div className={style.container}>
                 <div className={style.containertext}>
                    <div className={style.textQuemSomos}>
