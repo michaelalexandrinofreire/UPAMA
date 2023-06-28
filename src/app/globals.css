@@ -14,7 +14,7 @@
 
 html,
 body {
-  max-width: 1440px;
+
   margin: auto;
   overflow-x: hidden;
 }
@@ -25,14 +25,15 @@ a {
 }
 
 .button{
+  text-transform: uppercase;
   height: 35px;
   width: 103px;
   border: none;
   border-radius: 5px;
   background: #DC9D0B;
   color: #fff;
-  font-weight: 700;
-  line-height: 15px;
+  font-weight: 800;
+  font-size: 12px;
   letter-spacing: 0em;
   cursor: pointer;
 }

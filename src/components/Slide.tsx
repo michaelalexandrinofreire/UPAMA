@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect } from 'react';
+import { AiOutlineLeft,AiOutlineRight } from 'react-icons/ai';
 import styles from '../style/Slide.module.css';
-import Button from './Button';
 
 export default function Slide() {
   const [currentImage, setCurrentImage] = useState(0);
@@ -34,26 +34,20 @@ export default function Slide() {
         <h2 className={styles.titulo}>Torne-se um aliado do meio ambiente</h2>
         <div className={styles.buttonDoa}>
           <a href="/doacao">
-            <Button text="Doe agora"/>
+            <button>
+              Doe Agora
+            </button>
           </a>
           
         </div>
       </div>
       <div className={styles.navigation}>
         <button className={styles.prevButton} onClick={handlePrevSlide}>
-          &lt;
+          <AiOutlineLeft color='white' size={'40px'}/>
         </button>
         <button className={styles.nextButton} onClick={handleNextSlide}>
-          &gt;
+          <AiOutlineRight color='white' size={'40px'}/>
         </button>
-        <div className={styles.dots}>
-          {images.map((_, index) => (
-            <span
-              key={index}
-              className={`${styles.dot} ${currentImage === index ? styles.activeDot : ''}`}
-            />
-          ))}
-        </div>
       </div>
     </div>
   );

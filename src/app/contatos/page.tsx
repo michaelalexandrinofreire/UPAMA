@@ -67,7 +67,7 @@ export default function Contatos(){
 
                 <div className={style.formulario}>
                     <h2>Solicite nossos serviços</h2>
-                <form action="https://api.staticforms.xyz/submit" method="post">
+                <form action="https://api.staticforms.xyz/submit" method="post" onSubmit={handleSubmit}>
                     <input type="hidden" name="accessKey" value="de260494-4f11-423c-ad35-3d67bcad3c66" />
                     <div className={style.nameemail}>
                         <div className={style.nomelabel}>
@@ -80,7 +80,7 @@ export default function Contatos(){
                         </div>
                     </div>
                     <label htmlFor="">Tipo de serviço</label>
-                    <select name="tipodeservico" id="tipodeservico" className={style.tipodeservico}>
+                    <select name="tipodeservico" id="tipodeservico" className={style.tipodeservico} required>
                         <option value="Nulo"> - </option>
                         <option value="Educação Ambiental">Educação Ambiental</option>
                         <option value="Projetos Socioambientais">Projetos Socioambientais</option>
@@ -89,6 +89,7 @@ export default function Contatos(){
                     </select>
                     <label htmlFor="">Mensagem</label>
                     <textarea 
+                    required
                     name="message" 
                     id=""  
                     placeholder="Sua mensagem" 
@@ -100,8 +101,7 @@ export default function Contatos(){
                     <button 
                     type="submit" 
                     value="Submit" 
-                    className={style.buttonform}
-                    onClick={handleSubmit}>Enviar</button>
+                    className={style.buttonform}>Enviar</button>
                 </form>
                 </div> 
             </div>  

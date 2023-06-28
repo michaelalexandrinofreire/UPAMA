@@ -1,9 +1,9 @@
 .slideContainer {
  position: relative;
  width: 100%;
- height: 470px;
+ height: 520px;
 
- margin-top: 86px;
+ margin-top: 81px;
 
  z-index: 1;
 }
@@ -25,19 +25,22 @@
 }
 
 .titulo {
- height: 97.48147583007812px;
- width: 379px;
+ width: 459px;
+
  margin-left: 80px;
- margin-bottom: 26.69px;
- font-size: 35px;
- font-weight: 700;
- line-height: 42px;
+ margin-bottom: 58px;
+
+ font-size: 48px;
+ font-weight: 900;
+ line-height: 54px;
  text-align: left;
+
+ text-transform: uppercase;
 }
 
 .navigation {
  position: absolute;
- bottom: 27.85px;
+ bottom: 37.85px;
  left: 0;
  right: 0;
  display: flex;
@@ -48,16 +51,19 @@
 .nextButton {
  width: 40px;
  height: 40px;
- background-color: transparent;
+ background-color: rgba(0, 0, 0, 0.24);
  border: none;
+ border-radius: 6px;
  color: white;
- font-size: 30px;
  cursor: pointer;
  position: absolute;
  top: 50%;
  transform: translateY(-600%);
 }
-
+.prevButton:hover,
+.nextButton:hover {
+  background-color: rgba(0, 0, 0, 0.507);
+}
 .prevButton {
  left: 16px;
 }
@@ -65,32 +71,31 @@
 .nextButton {
  right: 16px;
 }
-
-.dots {
- position: absolute;
- bottom: 27.85px;
- left: 50%;
- transform: translateX(-50%);
- display: flex;
- gap: 22px;
- align-items: center;
-}
-
-.dot {
- width: 15px;
- height: 15px;
- background-color: rgba(255, 255, 255, 0.5);
- border-radius: 50%;
- cursor: pointer;
-}
-
-.activeDot {
- background-color: #ffffff;
+.prevButton svg, .nextButton svg{
+  color: white;
 }
 .buttonDoa{
   margin-top: 30px;
   margin-left: 80px;
-  margin-bottom: 55.7px;
+  margin-bottom: 65.7px;
+ }
+ .buttonDoa button{
+  width: 200px;
+  height: 40px;
+
+  border: none;
+  border-radius: 6px;
+  background-color: #DC9D0B;
+
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+
+  cursor: pointer;
+ }
+ .buttonDoa button:hover{
+  background-color: #dc7b0b;
  }
 @media screen and (max-width:480px){
   .slideContainer {
@@ -119,21 +124,39 @@
    }
    
    .titulo {
-    height: 77.48px;
-    width: 179px;
+    width: 229px;
 
-    margin-left: 65px;
-    margin-bottom: 70px;
-
-    font-size: 24px;
-    font-weight: 800;
+    margin-left: 50px;
+    margin-bottom: 8px;
+   
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 30px;
     text-align: left;
+   
+    text-transform: uppercase;
    }
-   .buttonDoa{
-    margin-top: 0px;
-    margin-left: 65px;
-    margin-bottom: 120px;
-   }
+    .buttonDoa{
+      margin-top: 40px;
+      margin-left: 50px;
+      margin-bottom: 94.7px;
+     }
+     .buttonDoa button{
+      width: 150px;
+      height: 40px;
+    
+      border: none;
+      border-radius: 6px;
+      background-color: #DC9D0B;
+    
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 800;
+      color: white;
+      text-transform: uppercase;
+    
+      cursor: pointer;
+     }
    .navigation {
     position: absolute;
     bottom: 27.85px;
@@ -149,7 +172,6 @@
     width: 40px;
     height: 40px;
 
-    background-color: transparent;
     color: rgb(255, 255, 255);
 
     display: flex;
@@ -158,10 +180,8 @@
     text-align: center;
     position: absolute;
 
-    border-radius: 50%;
     border: none;
     
-    font-size: 30px;
     font-weight: 500;
 
     cursor: pointer;
