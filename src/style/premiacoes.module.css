@@ -76,4 +76,7 @@
       font-size: 12px;
       line-height: 15px;
     }
+    .svg svg{
+      display: none;
+    }
   }

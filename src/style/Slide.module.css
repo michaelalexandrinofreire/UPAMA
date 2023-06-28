@@ -151,8 +151,8 @@
    .titulo {
     width: 229px;
 
-    margin-left: 50px;
-    margin-bottom: 8px;
+    left: 65px;
+    bottom: 190px;
    
     font-size: 32px;
     font-weight: 900;
@@ -162,9 +162,8 @@
     text-transform: uppercase;
    }
     .buttonDoa{
-      margin-top: 40px;
-      margin-left: 50px;
-      margin-bottom: 94.7px;
+      left: 65px;
+      bottom: 114px;
      }
      .buttonDoa button{
       width: 150px;

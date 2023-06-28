@@ -29,7 +29,7 @@ export default function Premiacoes(){
       </div>
       
       </div>
-      <div className="svg">
+      <div className={styles.svg}>
         <GiPlantsAndAnimals size={'120px'} color='#b39f8a'/>
       </div>
    </div>

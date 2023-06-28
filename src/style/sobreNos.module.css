@@ -45,3 +45,54 @@
   width: 220px;
   height: 330px;
 }
+@media screen and (max-width: 480px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .sobreNos{
+    margin-left: 20px;
+    padding: 20px 0;
+  
+    width: 100%;
+  }
+  .sobreNos h2{
+    font-size: 18px;
+    font-weight: 300;
+  
+    color: #925a1a;
+  }
+  .sobreNos p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+  
+    width: 93%;
+    margin-top: 20px;
+  
+    color: #585858;
+  }
+  .sobreNos p span{
+    font-weight: 700;
+  }
+  .img{
+    display: none;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: #2F7931CC;
+  
+  
+    width: 700px;
+    height: 100%;
+  }
+  .img img{
+    padding-top: 45px;
+    width: 220px;
+    height: 330px;
+  }
+}
