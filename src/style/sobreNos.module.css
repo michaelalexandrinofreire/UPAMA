@@ -1,0 +1,47 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.sobreNos{
+  margin-left: 80px;
+  padding: 20px 0;
+
+  width: 100%;
+}
+.sobreNos h2{
+  font-size: 24px;
+  font-weight: 300;
+
+  color: #925a1a;
+}
+.sobreNos p{
+  font-size: 14px;
+  font-weight: 400;
+  text-align: justify;
+
+  width: 610px;
+  margin-top: 20px;
+
+  color: #585858;
+}
+.sobreNos p span{
+  font-weight: 700;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #2F7931CC;
+
+
+  width: 700px;
+  height: 100%;
+}
+.img img{
+  padding-top: 45px;
+  width: 220px;
+  height: 330px;
+}

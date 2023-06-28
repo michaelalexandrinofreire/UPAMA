@@ -39,4 +39,5 @@ a {
 }
 .button:hover{
   background: #dc7b0b;
+  transition: .4s;
 }
