@@ -21,7 +21,7 @@ export default function NavBarMobile(){
           <nav> 
             <ul className={styles.ul}>
               <li className={styles.home}>
-                <a href="/" ><BiHomeAlt2 style={{'color': 'rgb(49, 49, 49)', 'fontSize': '44px', 'paddingRight': '20px'}}/> <div>Página Inicial da UPAMA</div>  </a>
+                <a href="/" > <div>Página Inicial</div>  </a>
               </li>
               <li >
                 <a href="/quemsomos"> Quem Somos</a>
@@ -33,12 +33,9 @@ export default function NavBarMobile(){
                 <a href="/contatos"> Contato</a>
               </li>
               <li className={styles.doeAgora}>
-                <a href="/doacao"> <FaHandHoldingHeart style={{'color': '#DC9D0B', 'fontSize': '44px', 'paddingRight': '20px'}}/><div>Doe Agora</div> </a>
+                <a href="/doacao"><div>Doe Agora</div> </a>
               </li>
             </ul>
-            <div className={styles.logoImg}>
-              <img src="/images/image5.jpg" alt="logo da UPAMA" />
-            </div>
           </nav>
           <HiX onClick={handleMenuToggle} style={{'fontSize': '32px','color': 'white', 'fontWeight': '300'}}/>
         </div>

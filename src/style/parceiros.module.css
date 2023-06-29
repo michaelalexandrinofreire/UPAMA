@@ -1,10 +1,12 @@
 .parceiroContainer{
-  background-image: url('/images/bg_parceiros.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
   padding: 40px 0;
+  margin-bottom: 40px;
+
+  background-color: #fcfffb;
 }
 .parceiros{
   margin-top: 20px;
@@ -15,19 +17,15 @@
   margin-bottom: 24px;
   gap: 60px;
 }
-.divInicio{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .divInicio p{
-  width: 480px;
-  margin-right: 80px;
+  width: 500px;
+  margin-left: 80px;
+  margin-bottom: 40px;
 
-  color: white;
-  font-family: "Poppins";
-  font-size: 14px;
-  font-weight: 600;
+  color: #585858;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: justify;
 }
 .parceiro{
   display: flex;
@@ -35,22 +33,20 @@
   align-items: center;
 
   background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(9, 255, 0);
+  border: 1px solid #2F7931CC;
+  border-radius: 6px;
 
   width: 200px;
   height: 120px;
 }
   .tituloParceiro{
-    font-family: 'Inter', sans-serif;
-    color: white;
-    font-size: 26px;
-    font-weight: 900;
-    line-height: 30px;
-    text-align: left;
-  
-    margin-top: 29px;
+    font-size: 24px;
+    font-weight: 300;
+
+    color: #925a1a;
+
     margin-left: 80px;
-    margin-bottom: 37px;
+    margin-bottom: 20px;
   }
   .image1{
     height: 95px;
@@ -62,13 +58,13 @@
   }
   .image3{
     height: 86px;
-    width: 134px;
+    width: 164px;
   }
   .containerAgende{
     display: flex;
     justify-content: flex-end;
 
-    margin-right: 20px;
+    margin-right: 80px;
     margin-bottom: 30px;
   }
   .containerAgende a{
@@ -103,81 +99,85 @@
 }
 @media screen and (max-width:480px){
   .parceiroContainer{
-    background-image: url('/images/bg_parceiros.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    padding: 0px 0;
+    margin-bottom: 40px;
   
-    padding: 30px 0;
+    background-color: #fcfffb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .parceiros{
-    padding-top: 20px;
-    padding-bottom: 24px;
-
+    margin-top: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
     
-    gap: 10px;
+    margin-bottom: 24px;
+    gap: 20px;
   }
   .divInicio{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
-    align-items: baseline;
-    margin-left: 20px;
+    align-items: center;
+    margin: auto;
   }
   .divInicio p{
     width: 93%;
-    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: 40px;
   
-    color: white;
-    font-family: "Poppins";
+    color: #585858;
+    font-weight: 400;
     font-size: 14px;
-    font-weight: 600;
+    text-align: justify;
   }
-
   .parceiro{
     display: flex;
     justify-content: center;
     align-items: center;
   
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(9, 255, 0);
+    border: 1px solid #2F7931CC;
+    border-radius: 6px;
   
-    width: 110px;
-    height: 70px;
+    width: 200px;
+    height: 120px;
   }
-  .tituloParceiro{
-    font-family: 'Inter', sans-serif;
-    color: white;
-    font-size: 26px;
-    font-weight: 900;
-    line-height: 30px;
-    text-align: left;
-    
-    margin-top: 29px;
-    margin-left: 0px;
-    margin-bottom: 37px;
-  }
+    .tituloParceiro{
+      font-size: 18px;
+      font-weight: 300;
+  
+      color: #925a1a;
+  
+      margin-left: -200px;
+      margin-bottom: 20px;
+    }
     .image1{
-      height: 75px;
-      width: 123px;
+      height: 95px;
+      width: 143px;
     }
     .image2{
-      height: 85px;
-      width: 65px;
+      height: 130px;
+      width: 100px;
     }
     .image3{
-      height: 60px;
-      width: 100px;
+      height: 86px;
+      width: 164px;
     }
     .containerAgende{
       display: flex;
       justify-content: flex-end;
   
-      margin-right: 20px;
+      margin-right: 80px;
+      margin-bottom: 30px;
     }
     .containerAgende a{
       margin-top: 23px;

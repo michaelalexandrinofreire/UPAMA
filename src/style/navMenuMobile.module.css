@@ -18,12 +18,6 @@
   display: flex;
   gap: 2rem;
 }
-.menuMobile nav ul li a{
-    font-size: 16px;
-    font-weight: 700;
-    text-align: center;
-    color: white;
-}
 .menuClose{
   display: none;
   background-color: white;
@@ -36,20 +30,7 @@
 .instituicao{
   width: 100px;
 }
-.logo{
-  width: 50px;
-  height: 20px;
-}
-.logo {
-  display: flex; 
-  justify-content: flex-start;
-  align-items: center; 
-}
 
-.logo img {
-  width: 100%;
-  height: 105px;
-}
 @media screen and (max-width:480px){
   .menuClose{
     display: flex;
@@ -83,13 +64,14 @@
     backdrop-filter: blur(3px);
   }
   .menuMobile nav{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(73, 151, 83);
     width: 83%;
     height: 100vh;
 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
   }
   .menuMobile svg{
     position: absolute;
@@ -113,18 +95,14 @@
     align-items: center;
 
     font-family: 'Poppins', sans-serif;
-    color: rgb(49, 49, 49);
-    font-weight: 600;
-    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
     text-transform: uppercase;
     text-align: end;
 
     padding: 6px 0;
-    padding-left: 30px;
-    padding-right: 20px;
-  }
-  .menuMobile nav ul li a svg{
-    position: static;
+    padding-left: 45px;
   }
   .menuMenu{
     position: absolute;
@@ -146,35 +124,5 @@
     width: 45px;
     height: 55px;
   }
-  .menuMobile nav ul{
-    color: rgb(49, 49, 49);
-    font-weight: 800;
-    font-size: 14px;
-    font-family: 'Poppins', sans-serif;
-  }
-  .home a{
-    font-weight: 600;
-    font-size: 14px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-  }
-  .menuMobile nav ul{
-    font-size: 14px;
-    font-weight: 600;
-    color: white;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-  }
-  .logoImg{
-    width: 100%;
-    height: 320px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .logoImg img {
-    width: 100%;
-    height: 320px;
-  }
+
 }

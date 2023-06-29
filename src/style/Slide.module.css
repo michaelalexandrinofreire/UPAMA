@@ -90,7 +90,6 @@
   left: 80px;
   bottom: 100px;
   position: absolute;
-  opacity: 0;
   animation: fadeInButton 0.8s linear 0.5s forwards;
  }
  @keyframes fadeInButton {
@@ -119,7 +118,7 @@
   cursor: pointer;
  }
  .buttonDoa button:hover{
-  background-color: #dc7b0b;
+  opacity: 0.8;
   transition: .4s;
  }
 @media screen and (max-width:480px){
@@ -150,6 +149,7 @@
    
    .titulo {
     width: 229px;
+    position: absolute;
 
     left: 65px;
     bottom: 190px;
@@ -160,11 +160,13 @@
     text-align: left;
    
     text-transform: uppercase;
+    animation: none;
    }
     .buttonDoa{
       left: 65px;
       bottom: 114px;
-     }
+      animation: none;
+    }
      .buttonDoa button{
       width: 150px;
       height: 40px;

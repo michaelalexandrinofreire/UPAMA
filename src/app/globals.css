@@ -38,6 +38,6 @@ a {
   cursor: pointer;
 }
 .button:hover{
-  background: #dc7b0b;
+  opacity: 0.8;
   transition: .4s;
 }
