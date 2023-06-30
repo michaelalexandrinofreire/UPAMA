@@ -36,16 +36,16 @@ export default function Footer(){
         <h2>Siga-nos nas redes sociais</h2>
         <div>
           <div>
-            <a href="">
+            <a href="https://www.instagram.com/instituicao_upama/">
               <BsInstagram size={'30px'}/>
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/UPAMAOficial/">
               <BsFacebook size={'30px'}/>
             </a>
-            <a href="">
+            <a href="https://api.whatsapp.com/send?phone=558899214908&text=Ol%C3%A1!">
               <BsWhatsapp size={'30px'}/>
             </a>
-            <a href="">
+            <a href="https://www.youtube.com/@instituicaoupama5830">
               <BsYoutube size={'30px'}/>
             </a>
           </div>
