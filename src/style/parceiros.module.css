@@ -1,12 +1,25 @@
 .parceiroContainer{
+  position: relative;
+
+  padding: 40px 0;
+  padding-bottom: 60px;
+  margin-bottom: 10px;
+}
+.parceiroContainer::after {
+  content: '';
+  background-image: url('/images/bg_parceiros.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
-  padding: 40px 0;
-  margin-bottom: 40px;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
-  background-color: #fcfffb;
+  z-index: -1;
 }
 .parceiros{
   margin-top: 20px;
@@ -17,13 +30,18 @@
   margin-bottom: 24px;
   gap: 60px;
 }
+.divInicio{
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
 .divInicio p{
   width: 500px;
-  margin-left: 80px;
+  margin-right: 80px;
   margin-bottom: 40px;
 
-  color: #585858;
-  font-weight: 400;
+  color: white;
+  font-weight: 600;
   font-size: 16px;
   text-align: justify;
 }
@@ -41,9 +59,9 @@
 }
   .tituloParceiro{
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 600;
 
-    color: #925a1a;
+    color: white;
 
     margin-left: 80px;
     margin-bottom: 20px;
@@ -99,14 +117,34 @@
 }
 @media screen and (max-width:480px){
   .parceiroContainer{
-    padding: 0px 0;
-    margin-bottom: 40px;
+    position: relative;
   
-    background-color: #fcfffb;
+    padding: 40px 0;
+    padding-bottom: 60px;
+    margin-bottom: 10px;
+
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .parceiroContainer::after {
+    content: '';
+    background-image: url('/images/bg_parceiros.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    z-index: -1;
   }
   .parceiros{
     margin-top: 20px;
@@ -116,31 +154,27 @@
     align-items: center;
     
     margin-bottom: 24px;
-    gap: 20px;
+    gap: 60px;
   }
   .divInicio{
+    z-index: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    justify-content: space-between;
   }
   .divInicio p{
     width: 93%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 0px;
+    margin-right: 0px;
     margin-bottom: 40px;
   
-    color: #585858;
-    font-weight: 400;
+    color: white;
+    font-weight: 600;
     font-size: 14px;
     text-align: justify;
   }
   .parceiro{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   
@@ -153,11 +187,11 @@
   }
     .tituloParceiro{
       font-size: 18px;
-      font-weight: 300;
+      font-weight: 600;
   
-      color: #925a1a;
+      color: white;
   
-      margin-left: -200px;
+      margin-left: 0px;
       margin-bottom: 20px;
     }
     .image1{
@@ -174,9 +208,10 @@
     }
     .containerAgende{
       display: flex;
+      flex-direction: column;
       justify-content: flex-end;
   
-      margin-right: 80px;
+      margin-right: 20px;
       margin-bottom: 30px;
     }
     .containerAgende a{

@@ -2,14 +2,15 @@ import styles from '../style/parceiros.module.css'
 
 export default function Parceiros(){
  return(
-
+  
         <div className={styles.parceiroContainer}>
-          <div className={styles.divInicio}>
+            <div className={styles.divInicio}>
             <h2 className={styles.tituloParceiro}>
               Nossos Parceiros
             </h2>
             <p>Podemos contar com o suporte de colaboradores que compartilham da convicção de um amanhã promissor para a diversidade ambiental.</p>
           </div>
+          
           
           <div className={styles.parceiros}>
             <div className={styles.parceiro}>
